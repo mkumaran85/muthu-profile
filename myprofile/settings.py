@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
+from ctypes import cdll
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-fz968=gz(a5=qrpup73*0k5@1i-8rt!8u4-j#ge#_&4m%w5h-%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.muthukumaran.co.in']
+ALLOWED_HOSTS = ['www.muthukumaran.co.in','127.0.0.1']
 
 
 # Application definition
